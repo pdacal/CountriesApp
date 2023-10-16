@@ -1,0 +1,10 @@
+<!-- placeholder recibilo como dinamico -->
+<input
+  type="text"
+  [placeholder]="placeholder"
+  (keyup.enter)="emitValue(txtInput.value)"
+  class="form-control"
+  #txtInput
+  >
+
+
